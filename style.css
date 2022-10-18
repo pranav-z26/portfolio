@@ -13,3 +13,7 @@ h1{
     display: flex;
     justify-content: center;
 }
+.rdiv img{
+    border: 1px solid black;
+    height: 80vh;
+}
