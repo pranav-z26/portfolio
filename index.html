@@ -6,7 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pranav's Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <link rel="stylesheet" href="stylesheets/utils.css">
+    <link rel="stylesheet" href="stylesheets/blinker.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
         integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
@@ -21,17 +23,20 @@
             <div class="logo"><a href="#">My Portfolio</a></div>
             <ul class="menu">
                 <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#resume">Resume</a></li>
+                <li><a href="#abt">About</a></li>
                 <li><a href="#skills">Skills</a></li>
+                <li><a href="#wp">Work-Experience</a></li>
                 <li><a href="#contact">Contact</a></li>
+                <li><a href="#resume">Resume</a></li>
             </ul>
             <div class="media-icons">
-                <a href="https://www.facebook.com/pranav.zagade2600/" target="_blank"><i
-                        class="fab fa-facebook-f"></i></a>
-                <a href="https://twitter.com/zagadepranav" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://twitter.com/zagadepranav" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://twitter.com/zagadepranav" target="_blank"><i class="fab fa-linkedin"></i></a>
                 <a href="https://www.instagram.com/amazing_lyk_that_/" target="_blank"><i
                         class="fab fa-instagram"></i></a>
+                <a href="https://twitter.com/zagadepranav" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.facebook.com/pranav.zagade2600/" target="_blank"><i
+                        class="fab fa-facebook-f"></i></a>
             </div>
         </div>
     </nav>
@@ -51,7 +56,7 @@
             <button class="button"><a href="https://mail.google.com/mail/u/0/?fs=1&to=pranavzagade2600@gmail.com&tf=cm"
                     target="_blank">Contact Me</a></button>
         </div>
-        <img src="i_banner2.png" width="25%" alt="">
+        <img src="images/i_banner2.png" width="25%" alt="" id="bannerimg">
     </div>
     <br><br>
     <!-- -------------------------------------------------------------- -->
@@ -59,18 +64,156 @@
     <hr>
 
     <!-- ------------- -->
-    <div class="abt">
-        <h3 class="ct">About</h3>
-        <p></p>
+    <div class="abt" id="abt">
+        <h2 class="ct mh">About</h2>
+        <div class="row1">
+            <div class="clg m-6">
+                <p>Bachelor of Engineering (B.E), Mechanical Engineering</p>
+                <p>Savitribai Phule Pune University</p>
+                <p>Dr. D. Y. Patil Institute of Technology, Pimpri, Pune</p>
+                <p>CGPA: <span class="bold hl">9.49/10</span></p>
+                <p>2018 - 2022</p>
+            </div>
+        </div>
+        <div class="row2">
+            <div class="ssc">
+                <p>Secondary (X)</p>
+                <p>MAHARASHTRA STATE BOARD</p>
+                <p>Percentage: <span class="bold hl">90.20%</span></p>
+                <p>Year of Completion: 2016</p>
+            </div>
+            <div class="hsc">
+                <p>Senior Secondary (XII), Science</p>
+                <p>MAHARASHTRA STATE BOARD</p>
+                <p>Percentage: <span class="bold hl">85.23%</span></p>
+                <p>2016 - 2018</p>
+            </div>
+        </div>
     </div>
+
+    <hr>
+
+    <!-- ----------------------------------------------------------------------------------->
+
+    <!-- -----------------------Skills--------------------------------------------------------------------------->
+    <h1 class="mh ct">Skills</h1>
+    <p></p>
+
+    <hr>
+    <!-- ------------------------------------------------>
+
+    <!-- -----------------------------Work Experience------------------- -->
+
+    <div class="wp" id="wp">
+        <h1 class="mh ct">Work Experience</h1>
+
+        <div class="trainings w60nma jc">
+            <h3 class="ul my-15 ct">Trainings -</h3>
+            <p class="bold">1. Full Stack Development</p>
+            <p>HTML, CSS, JavaScript, Angular, NodeJS, MongoDB</p>
+            <p>Complete training on MEAN stack development. Created Projects using HTML, CSS, JS in frontend and also
+                using Angular as a frontend framework for building SPA (Single Page Application). Also did project with
+                NodeJS as backend and MongoDB non-relational database</p>
+        </div>
+
+        <div class="trainings-mech w60nma jc">
+            <h5>Mechanical - </h5>
+            <div class="tm1">
+                <p class="bold">a. Brake System Design and Safe T</p>
+                <p>Research Association of India (ARAI)</p>
+            </div>
+            <div class="tm2 mx-10">
+                <p class="bold">b. CAD-CAM Tools</p>
+                <p>Internshala</p>
+            </div>
+        </div>
+        <!-- ------------------------------- -->
+
+        <div class="projects w60nma jc">
+            <h3 class="ul my-15 ct">Projects -</h3>
+
+            <div class="prj1">
+                <p class="bold">1.MEAN Stack Ecommerce Web App</p>
+                <p>Built an e-commerce shopping website using Angular, a JavaScript-based frontend framework,
+                    specifically used for creating a SPA (Single Page Application). The backend is built using NodeJS
+                    and MongoDB
+                    as a database.</p>
+            </div>
+
+            <div class="prj2">
+                <p class="bold">2.Mahindra SAE Baja 2020</p>
+                <p>Made and Off-road All Terrain Vehicle to compete in National Level Competition Baja SAE (Society of
+                    Automotive Engineers) organized by Mahindra and hold title of second fastest ATV of India in
+                    acceleration event.</p>
+            </div>
+
+            <div class="prj3">
+                <p class="bold">3.SAE Go-Green Event 2020</p>
+                <p>In Go-Green Event 2020, built a working Catalytic Converter with main objective to reduce cold start
+                    emissions by using cheaper non noble elements. And secured All India Rank 3.</p>
+            </div>
+
+            <div class="prj4">
+                <p class="bold">4.Design and Fabrication of automated mechanism for wheel attachment and Detachment.</p>
+                <p>- PATENT PUBLISHED</p>
+            </div>
+        </div>
+
+        <div class="internships w60nma jc">
+            <h3 class="ul my-15 ct">Internships -</h3>
+            <h5>Mechanical Internships -</h5>
+
+            <div class="intp1">
+                <p class="bold">1. Model-Based Design Intern (Decibels Lab, Virtual)</p>
+                <p>Worked on Scilab Xcos simulation software on the following projects during the tenure - Numerical
+                    modelling and simulation of Vehicle Resistive Forces acting on vehicles, Spring Mass Damper System,
+                    SOC of NiMh Battery, Thermal Modelling of House.</p>
+            </div>
+
+            <div class="intp2">
+                <p class="bold">2. Automotive Product Design and Analysis Internship (Expertshub, Pune)</p>
+                <p>Role - Project Lead and CFD Analysis We were assigned a project to design and analyse an IC Engine
+                    Cylinder block. We came up with a solution to develop a prototype using CATIA, ANSYS & CFD Tools.
+                </p>
+            </div>
+        </div>
+
+    </div>
+    <div class="linkedinlink ct ul">
+        <a href="https://linkedin.com/in/pranav-zagade/" target="_blank">Check certificate validations attached here</a>
+    </div>
+
+    <hr>
+
 
     <!-- -------------------------------------------------------------- -->
 
     <div id="resume"></div>
     <h3 class="ct">My Resume</h3>
     <div class="rdiv">
-        <img src="Pranav_Zagade_Resume.png" alt="">
+        <img src="images/Pranav_Zagade_Resume.png" alt="">
     </div>
+    <div class="rdownloadlink ct ul">
+        <a href="https://drive.google.com/file/d/17IG2dwNq_DKICdyMYzx1s3mMv1EBOMI9/view">Download Resume</a>
+    </div>
+
+    <!-- ---------------------------- -->
+
+    <footer>
+        <div class="footer">
+            <p class="bold"> &copy; Created by Pranav Zagade | 2022</p>
+            <div class="media-icons">
+                <a href="https://twitter.com/zagadepranav" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://twitter.com/zagadepranav" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/amazing_lyk_that_/" target="_blank"><i
+                        class="fab fa-instagram"></i></a>
+                <a href="https://twitter.com/zagadepranav" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.facebook.com/pranav.zagade2600/" target="_blank"><i
+                        class="fab fa-facebook-f"></i></a>
+            </div>
+        </div>
+    </footer>
+    </footer>
 
 
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"

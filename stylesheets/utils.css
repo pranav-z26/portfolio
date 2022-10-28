@@ -1,0 +1,48 @@
+.m-2{
+    margin: 2px;
+}
+.m-4{
+    margin: 4px;
+}
+.m-6{
+    margin: 6px;
+}
+.mx-2{
+    margin-top: 2px;
+}
+.mx-4{
+    margin-top: 4px;
+}
+.mx-6{
+    margin-top: 6px;
+}
+.mx-10{
+    margin-top: 10px;
+}
+.my-15{
+    margin-bottom: 15px;
+}
+.mh{
+    margin: 30px;
+    font-family: 'Silkscreen', cursive;
+    color:#8458B3;
+}
+.bold{
+    font-weight: bold;
+}
+.hl{
+    color:blue;
+}
+.ct{
+    text-align: center;
+}
+.ul{
+    text-decoration: underline;
+}
+.w60nma{
+    width: 60%;
+    margin: auto;
+}
+.jc{
+    text-align: justify;
+}
