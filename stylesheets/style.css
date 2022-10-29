@@ -47,7 +47,8 @@ nav {
     align-items: center;
     padding-top: 4vh;
 }
-nav{
+
+nav {
     position: sticky;
     top: 0;
 }
@@ -186,11 +187,11 @@ nav .navbar .menu li {
     }
 }
 
-.navbar .menu li:hover{
+.navbar .menu li:hover {
     margin: 0 15px;
     transform: scale(1.2);
     transition: 0.3s;
-    text-decoration:underline;
+    text-decoration: underline;
     text-underline-offset: 0.5rem;
 }
 
@@ -204,17 +205,22 @@ hr {
 .abt {
     font-family: 'Ubuntu', sans-serif;
     font-size: 1.2rem;
-    /* background-image: url('/images/edu_bg2.jpg'); */
-    background: url('/images/canva1-removebg-preview.png');
-    background-size: 70%;
-    background-repeat: no-repeat;
-    background-position: 95%;
-    background-attachment: fixed;
-    border-radius: 50px;
     overflow: hidden;
+    position: relative;
+    background-color: rgba(206, 224, 248, 0.364);
+    border-radius: 2%;
+    /* border-top-left-radius: 40%; */
+    width: 90%;
+    margin: 0 auto;
 }
-.abt:hover{
-    background-size: 72%;
+
+.abt img {
+    position: absolute;
+    right: 6%;
+    top: 20%;
+}
+
+.abt:hover {
     transition: 0.6s;
 }
 
@@ -243,7 +249,7 @@ hr {
     transform: scale(1.2);
 }
 
-.lined{
+.lined {
     height: 0.4rem;
     background-color: #4070f4;
     transform: rotate(-42deg);
@@ -254,14 +260,68 @@ hr {
     width: 80%;
 }
 
+/* ---------------------------------------------skills-------------------------------------------------- */
+
+.skills .bar-row {
+    /* border: 2px solid black; */
+    top: 0;
+    right: 0;
+    position: absolute;
+    width: 60%;
+    background-color: white;
+    padding: 1%;
+    border-radius: 5px;
+}
+
+.skills {
+    position: relative;
+    font-family: 'Ubuntu', sans-serif;
+    /* border: 2px solid black; */
+    margin: 2rem;
+}
+
+.skills .skills-content {
+    margin-left: 15%;
+}
+
+
+
+
+
 /* -------------------------------trainings------------------------------------------- */
 .wp {
     font-family: 'Ubuntu', sans-serif;
     font-size: 1.2rem;
 }
 
+.trainingsall,
+.internshipsall,
+.projectsall {
+    background-color: rgba(206, 224, 248, 0.364);
+    border-radius: 2%;
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.projects img{
+    position: absolute;
+    top: 2%;
+    right: 0;
+}
+
+.projects h3 {
+    margin-top: 4%;
+}
+
 .wp .bold {
     color: darkblue;
+}
+
+.linkedinlink a{
+    color: grey;
+    text-decoration-color: #4070f4;
 }
 
 /* ------------------------------footer---------------------- */
@@ -289,26 +349,28 @@ hr {
 .footer .media-icons {
     margin-right: 2%;
 }
+
 /* ---------------------------------------------------------------------------------- */
 /* Scroll TO Top Button CSS */
-.scroll-button a{
+.scroll-button a {
     position: fixed;
     bottom: 55px;
     right: 20px;
     color: #fff;
     background: #4070f4;
-    padding: 7px 12px;;
+    padding: 7px 12px;
+    ;
     font-size: 18px;
     border-radius: 6px;
     box-shadow: rgba(0, 0, 0, 0.15);
     display: none;
-  }
+}
 
-  .navbg{
+.navbg {
     background-color: rgb(249, 246, 246);
     box-shadow: 5px 5px 5px lightgray;
     z-index: 22;
     transition: 0.4s;
     height: 50px;
     padding-top: 0vh;
-  }
+}

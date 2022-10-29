@@ -40,9 +40,18 @@
     text-decoration: underline;
 }
 .w60nma{
-    width: 60%;
-    margin: auto;
+    width: 70%;
+    margin: 0 6% 0 0;
+    float: right;
+}
+.w60nsm{
+    width: 65%;
+    margin: 0 0 0 7%;
+    float: left;
 }
 .jc{
     text-align: justify;
+}
+.jce{
+    text-align: end;
 }
