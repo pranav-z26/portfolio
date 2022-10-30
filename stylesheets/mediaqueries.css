@@ -186,11 +186,13 @@
     /* ---------- */
     .navbg {
         background-color: rgb(249, 246, 246);
-        box-shadow: 5px 5px 5px lightgray;
         z-index: 22;
         transition: 0.4s;
         height: 200px;
         padding-top: 0vh;
         width: 750px;
+    }
+    .navbg{
+        box-shadow: 5px 5px 5px lightgray;
     }
 }
