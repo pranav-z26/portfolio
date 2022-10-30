@@ -1,11 +1,11 @@
-@media all and (max-width:412px){
+@media all and (max-width:412px) {
     .rdiv {
         margin: 0 auto;
         width: 30%;
         display: flex;
         justify-content: center;
     }
-    
+
     .rdiv img {
         border: 1px solid black;
         height: 60vh;
@@ -26,10 +26,12 @@
         /* border: 2px solid black; */
         text-align: center;
     }
-    .navbar .media-icons a{
+
+    .navbar .media-icons a {
         margin: 0 20px;
     }
-    .navbar{
+
+    .navbar {
         margin: 0 auto;
         /* background-color: aqua; */
     }
@@ -40,7 +42,7 @@
         margin-left: 50%;
     }
 
-    
+
     nav .navbar .logo a {
         text-align: center;
         display: block;
@@ -56,10 +58,12 @@
         margin-top: 6vh;
         width: 650px;
     }
+
     .text-one {
         font-size: 25px;
         text-align: center;
     }
+
     .text-two {
         color: #0E2431;
         font-size: 50px;
@@ -71,10 +75,12 @@
         width: 650px;
         text-align: center;
     }
+
     .sn {
         display: inline-block;
     }
-    .container_home img{
+
+    .container_home img {
         display: block;
         margin-left: 42%;
     }
@@ -85,21 +91,23 @@
         margin-left: 10%;
         text-align: center;
     }
-    
+
     .text-four {
         font-size: 23px;
         margin: 5px;
         color: #0E2431;
-        margin-left:60px;
+        margin-left: 60px;
         text-align: center;
         width: 650px;
         display: inline-block;
     }
-    .text-four img{
+
+    .text-four img {
         border: none;
         display: inline-block;
         margin-left: 0;
     }
+
     .button {
         margin: 14px 0;
         margin-left: 42%;
@@ -107,10 +115,9 @@
 
 
     /* ---------------------------------------- */
-    .abt{
-        width:650px;
+    .abt {
+        width: 650px;
         margin-left: 8%;
-        border: 2px solid black;
     }
 
     .abt img {
@@ -121,22 +128,25 @@
     }
 
     /* ------------------ */
-    .skills{
+    .skills {
         /* border: 2px solid black; */
         width: 650px;
     }
-    .skills-content{
+
+    .skills-content {
         /* margin-left: -20%; */
     }
+
     .skills .skills-content {
-        margin-left:6%;
+        margin-left: 6%;
     }
 
     /* ---------------------------- */
-    .wp{
+    .wp {
         width: 650px;
         margin-left: 8%;
     }
+
     .projects img {
         position: absolute;
         top: 2%;
@@ -144,28 +154,35 @@
         width: 70%;
         z-index: -2;
     }
-    .linkedinlink{
+
+    .linkedinlink {
         width: 650px;
     }
+
     /* ------------------------------------------ */
-    .resume, .contact{
+    .resume,
+    .contact {
         width: 650px;
         margin-left: 8%;
     }
-    .contact-content{
+
+    .contact-content {
         width: 650px;
         margin: 0 0;
     }
-    .contact-content img{
+
+    .contact-content img {
         position: absolute;
         top: 30%;
         right: 0;
         width: 20%;
     }
-    .footer{
+
+    .footer {
         width: 650px;
         margin-left: 8%;
     }
+
     /* ---------- */
     .navbg {
         background-color: rgb(249, 246, 246);
