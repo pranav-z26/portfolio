@@ -4,12 +4,29 @@
     border-radius: 5px;
 }
 
-.calculator {
-    /* border: 2px solid black; */
+.calculatorall {
     background-color: rgba(206, 224, 248, 0.364);
     border-radius: 10px;
     width: 90%;
+    margin: 3rem auto;
+    border: 2px solid grey;
+}
+
+h3 {
+    padding-top: 1.5rem;
+}
+.whr{
+    width: 60%;
+    background-color: #4070f4;
+    height: 0.2rem;
     margin: 0 auto;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+.calculator {
+    /* border: 2px solid black; */
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,7 +34,40 @@
     font-size: 1.2rem;
     text-align: center;
 }
-.calculator #blk{
+
+.calculator #blk {
     animation: blink 3s linear infinite;
     font-size: 1.3rem;
+}
+
+/* -------------------------------------------- */
+.crvsal {
+    width: 60%;
+    margin: 2rem auto;
+}
+
+.crvsal img {
+    border-radius: 5px;
+}
+
+.mb {
+    background-color: rgba(206, 224, 248, 0.364);
+    border-radius: 10px;
+    width: 90%;
+    margin: 2.5rem auto;
+    border: 2px solid grey;
+}
+
+.mb-content {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.2rem;
+}
+.mb-content a{
+   margin-left: 1rem;
+}
+.hh{
+    color: #4070f4;
 }
