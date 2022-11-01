@@ -347,6 +347,7 @@ hr {
     height: 15rem;
     margin: 1.2rem auto;
     background-image: url('images/codingbg.png');
+    /*for sake of commit*/
     background-size: cover;
 }
 
