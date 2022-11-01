@@ -34,16 +34,26 @@
     <nav>
         <div class="navbar">
             <div class="logo"><a href="#"><img src="images/pimg2.png" alt=""></a></div>
-            <ul class="menu">
-                <li><a href="#">Home</a></li>
-                <li><a href="#abt">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#wp">Work-Experience</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <li><a href="#resume">Resume</a></li>
-                <li><a href="webprojects.html">Web-Projects</a></li>
-            </ul>
-            <div class="media-icons">
+
+            <div class="hamburger">
+                <button onclick="hburger()"><i class="fa-solid fa-bars"></i></button>
+            </div>
+
+            <div class="menuall">
+                <ul class="menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#abt">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#wp">Work-Experience</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#resume">Resume</a></li>
+                    <li><a href="webprojects.html">Web-Projects</a></li>
+                </ul>
+            </div>
+
+
+
+            <div class="media-icons nmi">
                 <a href="https://github.com/pranav-z26" target="_blank"><i class="fab fa-github"></i></a>
                 <a href="https://linkedin.com/in/pranav-zagade/" target="_blank"><i class="fab fa-linkedin"></i></a>
                 <a href="https://www.instagram.com/amazing_lyk_that_/" target="_blank"><i
@@ -52,8 +62,11 @@
                 <a href="https://www.facebook.com/pranav.zagade2600/" target="_blank"><i
                         class="fab fa-facebook-f"></i></a>
             </div>
+
+
         </div>
     </nav>
+
     <hr id="hr1">
     <!-- ------------------------------------------------------------------------------- -->
 
@@ -266,7 +279,7 @@
     <div class="linkedinlink ct ul">
         <a href="https://linkedin.com/in/pranav-zagade/" target="_blank">Check certificate validations attached here</a>
     </div>
-    
+
     <div class="webprojects">
         <!-- <img src="images/giphy.gif" alt="gif file"> -->
         <a href="webprojects.html" target="_blank">Checkout some of my web projects --></a>
@@ -338,6 +351,7 @@
     </footer>
 
     <script src="js/movetotop.js"></script>
+    <script src="js/hamburger.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
