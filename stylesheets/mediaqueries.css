@@ -99,11 +99,16 @@
     /* ----------hamburger-------------- */
     .hamburger {
         display: block;
-        border: 2px solid black;
         margin-right: 30px;
     }
+    .hamburger button{
+        padding: 15px;
+        border-radius: 6px;
+        border: 2px solid blue;
+        color: blue;
+    }
 
-    .hblck{
+    .hblck {
         display: none;
     }
 
@@ -166,7 +171,8 @@
         margin: 14px 0;
         margin-left: 42%;
     }
-    #bannerimg{
+
+    #bannerimg {
         margin: 0 auto;
         border: 2px solid;
         margin-left: 39%;
