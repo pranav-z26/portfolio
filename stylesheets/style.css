@@ -222,7 +222,7 @@ hr {
     transition: 0.3s;
 }
 
-.abt:hover img{
+.abt:hover img {
     transform: scale(1.2);
 }
 
@@ -279,7 +279,13 @@ hr {
     position: relative;
     font-family: 'Ubuntu', sans-serif;
     /* border: 2px solid black; */
-    margin: 2rem;
+    margin: 0 2rem;
+    width: 90%;
+}
+
+.skills:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
 }
 
 .skills .skills-content {
@@ -314,7 +320,7 @@ hr {
     transition: 0.3s;
 }
 
-.projects:hover > img{
+.projects:hover>img {
     transform: scale(1.1);
 }
 
@@ -331,23 +337,64 @@ hr {
     text-decoration-color: #4070f4;
 }
 
+/* ---------------------web-projects---------------------- */
+.webprojects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    width: 60%;
+    height: 15rem;
+    margin: 1.2rem auto;
+    background-image: url('/images/codingbg.png');
+    background-size: cover;
+}
+
+.webprojects a {
+    color: black;
+    background: rgba(255, 255, 255, 0.47);
+    border-radius: 5px;
+    box-shadow: 0 4px 30px rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    padding: 1rem;
+    font-size: 1.2rem;
+    font-family: 'Silkscreen', cursive;
+    color: whitesmoke;
+}
+
+.webprojects:hover a {
+    transform: scale(1.1);
+    transition: 0.4s;
+    font-size: 1.2rem;
+}
+
+/* .webprojects img {
+    height: 15rem;
+    border-radius: 10px;
+    margin: 1.5rem;
+} */
+
 /* --------------------------------------------contact--------------------------------------- */
-.contact a{
+.contact a {
     margin-left: 1rem;
 }
-#atext{
+
+#atext {
     color: #0E2431;
     font-family: 'Ubuntu', sans-serif;
     font-size: 1.2rem;
 }
-.contact-content{
+
+.contact-content {
     width: 60%;
     margin: 0 auto;
 }
-.contact-content .row2{
+
+.contact-content .row2 {
     display: flex;
     justify-content: space-between;
 }
+
 .contact {
     background-color: rgba(206, 224, 248, 0.364);
     border-radius: 2%;
@@ -356,16 +403,19 @@ hr {
     padding-top: 1px;
     position: relative;
 }
-.contact-content img{
+
+.contact-content img {
     position: absolute;
     top: 2%;
     right: 0;
     transition: 0.3s;
 }
-.contact:hover img{
+
+.contact:hover img {
     transform: scale(0.85);
 }
-.contact:hover{
+
+.contact:hover {
     transform: scale(1.05);
 }
 
@@ -424,5 +474,3 @@ hr {
 
 
 /* -------------------------------------------------------------------------------------------------------------------- */
-
- 
