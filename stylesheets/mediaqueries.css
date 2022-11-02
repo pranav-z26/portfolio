@@ -221,7 +221,7 @@
     }
 
     .linkedinlink {
-        width: 650px;
+        width: 870px;
     }
 
     /* ------------------------------------------ */
@@ -244,8 +244,8 @@
     }
 
     .footer {
-        width: 750px;
-        margin-left: 8%;
+        width: 100%;
+        margin: 0 auto;
     }
 
 }

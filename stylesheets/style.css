@@ -90,10 +90,20 @@ nav .navbar .menu li {
 }
 
 .media-icons a:hover {
-    background-color: lightpink;
+    background-color: #527ef6;
     border-radius: 50%;
-    border: 5px solid lightpink;
-    color: black;
+    border: 6px solid #527ef6;
+    color: white;
+    transition: 0.2s;
+}
+#a-wb{
+    color: orange;
+    font-size: small;
+    position: relative;
+    bottom: 0.5rem;
+}
+#idwb{
+    animation: blink 2s linear infinite;
 }
 
 #hr1 {
@@ -346,13 +356,8 @@ hr {
     width: 60%;
     height: 15rem;
     margin: 1.2rem auto;
-<<<<<<< HEAD
-    background-image: url('/images/codingbg.png');
-=======
-    background-image: url('images/codingbg.png');
-    /*for sake of commit*/
->>>>>>> d1144142c022b87f2ff5e590f4fd26ebc9cb53a4
-    background-size: cover;
+    background-image: linear-gradient(to bottom right, rgba(63, 63, 239, 0.551), rgba(255, 255, 255, 0.501));
+
 }
 
 .webprojects a {
@@ -364,7 +369,7 @@ hr {
     padding: 1rem;
     font-size: 1.2rem;
     font-family: 'Silkscreen', cursive;
-    color: whitesmoke;
+    /* color: whitesmoke; */
 }
 
 .webprojects:hover a {
@@ -449,6 +454,13 @@ hr {
 
 .footer .media-icons {
     margin-right: 2%;
+}
+.footer .media-icons a:hover {
+    background-color: white;
+    border-radius: 50%;
+    border: 5px solid white;
+    color: black;
+    transition: 0.2s;
 }
 
 /* ---------------------------------------------------------------------------------- */

@@ -73,7 +73,7 @@ h3 {
     font-family: 'Ubuntu', sans-serif;
 }
 /* ------------------cm------------------------------------- */
-.cm, .crud-app {
+.cm, .crud-app, .clock, .bl, .mn {
     background-color: rgba(206, 224, 248, 0.364);
     border-radius: 10px;
     width: 90%;
@@ -93,6 +93,13 @@ h3 {
 }
 .crud-content a{
    margin-left: 1rem;
+}
+/* -------------------------- */
+
+.clock img{
+    width: 60%;
+    margin: 1rem auto;
+    /* border: 5px solid red; */
 }
 /* --------------------------------------------- */
 .box-shadow{
