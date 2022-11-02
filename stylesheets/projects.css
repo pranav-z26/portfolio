@@ -70,4 +70,32 @@ h3 {
 }
 .hh{
     color: #4070f4;
+    font-family: 'Ubuntu', sans-serif;
+}
+/* ------------------cm------------------------------------- */
+.cm, .crud-app {
+    background-color: rgba(206, 224, 248, 0.364);
+    border-radius: 10px;
+    width: 90%;
+    margin: 2.5rem auto;
+    border: 2px solid grey;
+}
+
+.cm-content, .crud-content{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.2rem;
+}
+.cm-content a{
+   margin-left: 1rem;
+}
+.crud-content a{
+   margin-left: 1rem;
+}
+/* --------------------------------------------- */
+.box-shadow{
+    box-shadow: 5px 5px 5px grey;
+    border-radius: 5px;
 }
