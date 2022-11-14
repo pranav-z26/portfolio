@@ -39,6 +39,22 @@ h3 {
     animation: blink 3s linear infinite;
     font-size: 1.3rem;
 }
+/* -------------------------------------------------- */
+.dino_img{
+    margin: 1rem auto;
+    width: 60%;
+    /* height: 20rem; */
+    /* background-image: url('images/dino_game.gif'); */
+    
+}
+.dino_img img{
+    width: 100%;
+    border-radius: 5px;
+}
+.dino-content span{
+    font-size: small;
+    display: block;
+}
 
 /* -------------------------------------------- */
 .crvsal {
@@ -73,7 +89,7 @@ h3 {
     font-family: 'Ubuntu', sans-serif;
 }
 /* ------------------cm------------------------------------- */
-.cm, .crud-app, .clock, .bl, .mn {
+.cm, .crud-app, .clock, .bl, .mn, .dino_game_all {
     background-color: rgba(206, 224, 248, 0.364);
     border-radius: 10px;
     width: 90%;
@@ -81,7 +97,7 @@ h3 {
     border: 2px solid grey;
 }
 
-.cm-content, .crud-content{
+.cm-content, .crud-content, .dino-content{
     width: 60%;
     margin: 0 auto;
     text-align: center;
@@ -92,6 +108,9 @@ h3 {
    margin-left: 1rem;
 }
 .crud-content a{
+   margin-left: 1rem;
+}
+.dino_game a{
    margin-left: 1rem;
 }
 /* -------------------------- */
